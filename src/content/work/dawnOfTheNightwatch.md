@@ -1,7 +1,7 @@
 ---
 title: Dawn Of The Nightwatch - Projet Unreal Engine 5 
 publishDate: 2022-03-02 00:00:00
-img: /assets/DawnOfTheNightwatch_Logo.png
+img: /portfolio/assets/DawnOfTheNightwatch_Logo.png
 img_alt: Logo du jeu Dawn Of The Nightwatch
 description: |
   J'ai cocréé ce petit FPS/Tower Defense sur Unreal Engine - 2023

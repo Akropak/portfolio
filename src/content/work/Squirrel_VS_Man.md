@@ -1,7 +1,7 @@
 ---
 title: Squirrel VS Man - Projet Unity
 publishDate: 2022-02-02 00:00:00
-img: /assets/SquirrelVSMan_logo.png
+img: /portfolio/assets/SquirrelVSMan_logo.png
 img_alt: Logo du jeu Squirrel VS Man
 description: |
   J'ai cocréé ce jeu d'aventure/puzzle sur Unity - 2022

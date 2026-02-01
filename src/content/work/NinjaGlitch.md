@@ -1,7 +1,7 @@
 ---
 title: Ninjaglitch - Unity - WonderJam 2022
 publishDate: 2022-02-02 00:00:00
-img: /assets/NinjaGlitch_Logo.png
+img: /portfolio/assets/NinjaGlitch_Logo.png
 img_alt: Logo du jeu NinjaGlitch
 description: |
  Jeu 2D d'infiltration N°3 de la WonderJam 2022
@@ -16,7 +16,7 @@ tags:
 
 ##### Image de présentation du jeu :
 
-![Image du jeu NinjaGlitch](/assets/NinjaGlitch_gameplay.png "Gameplay de NinjaGlitch")
+![Image du jeu NinjaGlitch](/portfolio/assets/NinjaGlitch_gameplay.png "Gameplay de NinjaGlitch")
 
 Lien vers la page du jeu : [Cliquez ici](https://activia.itch.io/ninjaglitch)
 
