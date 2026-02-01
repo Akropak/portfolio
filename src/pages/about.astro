@@ -1,0 +1,137 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="À propos - Emmanuel Pires" description="Emmanuel Pires - À propos">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+				tagline="Découvrez qui je suis"
+			>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Passionné de jeux vidéos, jeux de sociétés et de jeux de rôles (papier et grandeur nature), je souhaite concevoir et intégrer les meilleurs expériences vidéoludiques possible. Je suis polyvalent sur les sujets que je peux aborder en programmation,  
+						j'ai également une maitrîse plus poussées de l'intégration d'interface car cela a constitué mon quotidien lors de ces dernières années.
+						 
+					</p>
+					<p> 
+						Après mes études j'ai pu découvrir et comprendre les enjeux et méthode de travail d'une chaîne de production au cours de mes années à ANKAMA. Cette expérience m'a permis de collaborer étroitement avec les différents pôles et a prouvé 
+						que je peux être une excellente force de proposition.
+					</p>
+					<p>
+						Je possède une culture jeux vidéoludique extrêmement vaste avec de très nombreux genres de jeux explorés, ce qui me permet d'avoir des références pertinentes à apporter lors de reflexion sur l'amélioration
+						 ou la création de fonctionnalité. Je sais analyser, critiquer et comprendre les éléments qui fonctionnent ou non au sein d'une mécanique pour pouvoir proposer différents axes d'améliorations.
+					</p>
+					<p>
+						De nature calme et posée, je me tourne facilement vers les autres. Je possède un bon esprit de synthèse et sais expliquer clairement un problème en m'adaptant à mon interlocuteur.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Diplômes</h2>
+				<div class="content">
+					<p>2024 - Diplôme d'ingénieur en informatique spécialisé en jeu vidéo. UQAC Chicoutimi CANADA</p>
+					<p>2024 - Diplôme d'ingénieur informatique et réseaux. ENSISA Mulhouse FRANCE</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Langages de programmations</h2>
+				<div class="content">
+					<p>Au cours des différents projets auquels j'ai participé, j'ai acquis la maîtrise des langages suivants :</p>
+					<ul class="list">
+						<li>C#</li>
+						<li>JAVA</li>
+						<li>C++</li>
+						<li>XML</li>
+						<li>HTML</li>
+						<li>CSS</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Outils maitrisés</h2>
+				<div class="content">
+					<p>Suite à mes différentes expériences je suis à l'aise avec ces outils : </p>
+					<ul class="list">
+						<li>Unity</li>
+						<li>Unreal Engine 5</li>
+						<li>Git (GitHub, GitLab)</li>
+						<li>Figma</li>
+						<li>Suite JetBrains</li>
+						<li>Perforce</li>
+					</ul>
+				</div>
+			</section>		
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+		display: grid;
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
