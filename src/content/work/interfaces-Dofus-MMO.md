@@ -1,7 +1,7 @@
 ---
 title: Refontes interfaces Dofus MMO - Stage Unity
 publishDate: 2024-03-02 00:00:00
-img: /portfolio/assets/dofus_logo.jpg
+img: /assets/dofus_logo.jpg
 img_alt: Logo du jeu Dofus
 description: |
   J'ai participé à l'intégration d'interfaces ainsi que l'ajout de fonctionnalités - 2024
@@ -19,8 +19,8 @@ Ma mission consistait alors à intégrer le nouveau visuel de ces interfaces dan
 
 ##### Avant/Après d'une interface que j'ai réalisée :
 
-![Ancienne interface](/portfolio/assets/oldPaddockDofus.png "Title")
-![Nouvelle interface](/portfolio/assets/newPaddockDofus.png "Title")
+![Ancienne interface](/assets/oldPaddockDofus.png "Title")
+![Nouvelle interface](/assets/newPaddockDofus.png "Title")
 
 
 On constate ici parmi les nouveautés beaucoups plus de filtres et de tris, des vues différentes en fonction des préférences du joueur et de la multisélection.

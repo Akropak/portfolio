@@ -1,7 +1,7 @@
 ---
 title: Arcania - Projet Unreal Engine 5 
 publishDate: 2023-03-02 00:00:00
-img: /portfolio/assets/Arcania_Logo.png
+img: /assets/Arcania_Logo.png
 img_alt: Logo du jeu Arcania
 description: |
   J'ai cocréé ce petit fps sur Unreal Engine - 2023

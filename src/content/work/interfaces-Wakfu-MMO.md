@@ -1,7 +1,7 @@
 ---
 title: Refontes interfaces Wakfu MMO
 publishDate: 2025-03-02 00:00:00
-img: /portfolio/assets/Wakfu_Logo.png
+img: /assets/Wakfu_Logo.png
 img_alt: Logo du jeu Wakfu
 description: |
   J'ai refait de nombreuses interfaces ainsi que leur fonctionnalités pour les remettre au goût du jour et ajouter du QOL - 2024-2025
@@ -21,8 +21,8 @@ Généralement, la refonte ne consistait pas simplement à une repasse graphique
 
 Voici un exemple d'interface que j'ai pu réaliser avec un avant après : 
 
-![Ancienne interface](/portfolio/assets/old_builds_interface.png "Title")
-![Nouvelle interface](/portfolio/assets/new_interfaces_builds.webp "Title")
+![Ancienne interface](/assets/old_builds_interface.png "Title")
+![Nouvelle interface](/assets/new_interfaces_builds.webp "Title")
 
 
 On peut noter un changement complet du fonctionnement de la façon dont un personnage s'équipe, choisis ses sorts et ses aptitudes. Ce changement a pour but la simplification de l'utilisation de la fonctionnalité.
